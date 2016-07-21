@@ -13,11 +13,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Player" Type="Folder">
+		<Item Name="Players" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Player.lvlib" Type="Library" URL="../Player/Player.lvlib"/>
-			<Item Name="Local.lvlib" Type="Library" URL="../Local/Local.lvlib"/>
-			<Item Name="Remote.lvlib" Type="Library" URL="../Remote/Remote.lvlib"/>
+			<Item Name="Player.lvlib" Type="Library" URL="../Players/Player/Player.lvlib"/>
+			<Item Name="Local.lvlib" Type="Library" URL="../Players/Local/Local.lvlib"/>
+			<Item Name="Remote.lvlib" Type="Library" URL="../Players/Remote/Remote.lvlib"/>
 		</Item>
 		<Item Name="Main.lvlib" Type="Library" URL="../Main/Main.lvlib"/>
 		<Item Name="Game.lvlib" Type="Library" URL="../Game/Game.lvlib"/>
