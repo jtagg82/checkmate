@@ -19,6 +19,9 @@
 			<Item Name="Local.lvlib" Type="Library" URL="../Players/Local/Local.lvlib"/>
 			<Item Name="Remote.lvlib" Type="Library" URL="../Players/Remote/Remote.lvlib"/>
 		</Item>
+		<Item Name="test" Type="Folder">
+			<Item Name="test doublepush move.vi" Type="VI" URL="../test/test doublepush move.vi"/>
+		</Item>
 		<Item Name="Main.lvlib" Type="Library" URL="../Main/Main.lvlib"/>
 		<Item Name="Game.lvlib" Type="Library" URL="../Game/Game.lvlib"/>
 		<Item Name="Chesslib.lvlib" Type="Library" URL="../Chesslib/Chesslib.lvlib"/>
