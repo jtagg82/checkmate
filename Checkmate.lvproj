@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="16008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -21,6 +21,8 @@
 		</Item>
 		<Item Name="test" Type="Folder">
 			<Item Name="test doublepush move.vi" Type="VI" URL="../test/test doublepush move.vi"/>
+			<Item Name="test bishop.vi" Type="VI" URL="../test/test bishop.vi"/>
+			<Item Name="test knight.vi" Type="VI" URL="../test/test knight.vi"/>
 		</Item>
 		<Item Name="Main.lvlib" Type="Library" URL="../Main/Main.lvlib"/>
 		<Item Name="Game.lvlib" Type="Library" URL="../Game/Game.lvlib"/>
